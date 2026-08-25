@@ -1,0 +1,323 @@
+{
+  "resnet18": {
+    "clean": {
+      "accuracy": 0.8917827298050139
+    },
+    "gaussian_noise": {
+      "acc_clean": 0.8917827298050139,
+      "r_df": 0.8762142745588006,
+      "breaking_severity": 1,
+      "breaking_percent": 20,
+      "retention_at_break": 0.21115102295798843,
+      "severity_curve": {
+        "1": {
+          "accuracy": 0.1883008356545961,
+          "retention": 0.21115102295798843,
+          "percent": 20
+        },
+        "2": {
+          "accuracy": 0.07075208913649025,
+          "retention": 0.07933781040137436,
+          "percent": 40
+        },
+        "3": {
+          "accuracy": 0.029108635097493035,
+          "retention": 0.03264094955489614,
+          "percent": 60
+        },
+        "4": {
+          "accuracy": 0.13760445682451253,
+          "retention": 0.1543026706231454,
+          "percent": 80
+        },
+        "5": {
+          "accuracy": 0.12618384401114205,
+          "retention": 0.14149617366859282,
+          "percent": 100
+        }
+      }
+    },
+    "motion_blur": {
+      "acc_clean": 0.8917827298050139,
+      "r_df": 0.4463845072622208,
+      "breaking_severity": 4,
+      "breaking_percent": 80,
+      "retention_at_break": 0.4476026862408246,
+      "severity_curve": {
+        "1": {
+          "accuracy": 0.708217270194986,
+          "retention": 0.794158987974387,
+          "percent": 20
+        },
+        "2": {
+          "accuracy": 0.5676880222841225,
+          "retention": 0.6365766047165391,
+          "percent": 40
+        },
+        "3": {
+          "accuracy": 0.4637883008356546,
+          "retention": 0.5200687177885366,
+          "percent": 60
+        },
+        "4": {
+          "accuracy": 0.3991643454038997,
+          "retention": 0.4476026862408246,
+          "percent": 80
+        },
+        "5": {
+          "accuracy": 0.32966573816155986,
+          "retention": 0.36967046696860845,
+          "percent": 100
+        }
+      }
+    },
+    "jpeg_compression": {
+      "acc_clean": 0.8917827298050139,
+      "r_df": 0.5964079337810402,
+      "breaking_severity": 3,
+      "breaking_percent": 60,
+      "retention_at_break": 0.4251132281742933,
+      "severity_curve": {
+        "1": {
+          "accuracy": 0.5055710306406686,
+          "retention": 0.5669217554271435,
+          "percent": 20
+        },
+        "2": {
+          "accuracy": 0.45,
+          "retention": 0.5046072153677964,
+          "percent": 40
+        },
+        "3": {
+          "accuracy": 0.37910863509749304,
+          "retention": 0.4251132281742933,
+          "percent": 60
+        },
+        "4": {
+          "accuracy": 0.278133704735376,
+          "retention": 0.31188505388099325,
+          "percent": 80
+        },
+        "5": {
+          "accuracy": 0.18676880222841225,
+          "retention": 0.20943307824457283,
+          "percent": 100
+        }
+      }
+    }
+  },
+  "mobilenet_v3_small": {
+    "clean": {
+      "accuracy": 0.8537604456824512
+    },
+    "gaussian_noise": {
+      "acc_clean": 0.8537604456824512,
+      "r_df": 0.8647960848287113,
+      "breaking_severity": 1,
+      "breaking_percent": 20,
+      "retention_at_break": 0.23311582381729198,
+      "severity_curve": {
+        "1": {
+          "accuracy": 0.199025069637883,
+          "retention": 0.23311582381729198,
+          "percent": 20
+        },
+        "2": {
+          "accuracy": 0.09651810584958218,
+          "retention": 0.11305057096247961,
+          "percent": 40
+        },
+        "3": {
+          "accuracy": 0.042200557103064064,
+          "retention": 0.04942903752039152,
+          "percent": 60
+        },
+        "4": {
+          "accuracy": 0.11559888579387187,
+          "retention": 0.13539967373572595,
+          "percent": 80
+        },
+        "5": {
+          "accuracy": 0.12381615598885794,
+          "retention": 0.14502446982055464,
+          "percent": 100
+        }
+      }
+    },
+    "motion_blur": {
+      "acc_clean": 0.8537604456824512,
+      "r_df": 0.6159216965742251,
+      "breaking_severity": 1,
+      "breaking_percent": 20,
+      "retention_at_break": 0.47373572593800983,
+      "severity_curve": {
+        "1": {
+          "accuracy": 0.40445682451253484,
+          "retention": 0.47373572593800983,
+          "percent": 20
+        },
+        "2": {
+          "accuracy": 0.33997214484679666,
+          "retention": 0.39820554649265905,
+          "percent": 40
+        },
+        "3": {
+          "accuracy": 0.3137883008356546,
+          "retention": 0.367536704730832,
+          "percent": 60
+        },
+        "4": {
+          "accuracy": 0.2962395543175487,
+          "retention": 0.34698205546492655,
+          "percent": 80
+        },
+        "5": {
+          "accuracy": 0.2850974930362117,
+          "retention": 0.333931484502447,
+          "percent": 100
+        }
+      }
+    },
+    "jpeg_compression": {
+      "acc_clean": 0.8537604456824512,
+      "r_df": 0.6401305057096248,
+      "breaking_severity": 2,
+      "breaking_percent": 40,
+      "retention_at_break": 0.40831973898858076,
+      "severity_curve": {
+        "1": {
+          "accuracy": 0.44303621169916435,
+          "retention": 0.5189233278955955,
+          "percent": 20
+        },
+        "2": {
+          "accuracy": 0.34860724233983287,
+          "retention": 0.40831973898858076,
+          "percent": 40
+        },
+        "3": {
+          "accuracy": 0.29094707520891366,
+          "retention": 0.3407830342577488,
+          "percent": 60
+        },
+        "4": {
+          "accuracy": 0.25807799442896934,
+          "retention": 0.30228384991843393,
+          "percent": 80
+        },
+        "5": {
+          "accuracy": 0.1955431754874652,
+          "retention": 0.22903752039151715,
+          "percent": 100
+        }
+      }
+    }
+  },
+  "vit_tiny": {
+    "clean": {
+      "accuracy": 0.8657381615598886
+    },
+    "gaussian_noise": {
+      "acc_clean": 0.8657381615598886,
+      "r_df": 0.7562741312741312,
+      "breaking_severity": 1,
+      "breaking_percent": 20,
+      "retention_at_break": 0.3918918918918919,
+      "severity_curve": {
+        "1": {
+          "accuracy": 0.3392757660167131,
+          "retention": 0.3918918918918919,
+          "percent": 20
+        },
+        "2": {
+          "accuracy": 0.21364902506963787,
+          "retention": 0.24678249678249678,
+          "percent": 40
+        },
+        "3": {
+          "accuracy": 0.19220055710306408,
+          "retention": 0.222007722007722,
+          "percent": 60
+        },
+        "4": {
+          "accuracy": 0.1690807799442897,
+          "retention": 0.19530244530244528,
+          "percent": 80
+        },
+        "5": {
+          "accuracy": 0.14080779944289692,
+          "retention": 0.16264478764478763,
+          "percent": 100
+        }
+      }
+    },
+    "motion_blur": {
+      "acc_clean": 0.8657381615598886,
+      "r_df": 0.4317245817245817,
+      "breaking_severity": 4,
+      "breaking_percent": 80,
+      "retention_at_break": 0.45624195624195624,
+      "severity_curve": {
+        "1": {
+          "accuracy": 0.688857938718663,
+          "retention": 0.7956885456885457,
+          "percent": 20
+        },
+        "2": {
+          "accuracy": 0.5644846796657381,
+          "retention": 0.652027027027027,
+          "percent": 40
+        },
+        "3": {
+          "accuracy": 0.44206128133704736,
+          "retention": 0.5106177606177607,
+          "percent": 60
+        },
+        "4": {
+          "accuracy": 0.39498607242339834,
+          "retention": 0.45624195624195624,
+          "percent": 80
+        },
+        "5": {
+          "accuracy": 0.36949860724233985,
+          "retention": 0.42680180180180183,
+          "percent": 100
+        }
+      }
+    },
+    "jpeg_compression": {
+      "acc_clean": 0.8657381615598886,
+      "r_df": 0.49707207207207205,
+      "breaking_severity": 3,
+      "breaking_percent": 60,
+      "retention_at_break": 0.4884169884169884,
+      "severity_curve": {
+        "1": {
+          "accuracy": 0.5504178272980501,
+          "retention": 0.6357786357786357,
+          "percent": 20
+        },
+        "2": {
+          "accuracy": 0.4809192200557103,
+          "retention": 0.5555019305019305,
+          "percent": 40
+        },
+        "3": {
+          "accuracy": 0.4228412256267409,
+          "retention": 0.4884169884169884,
+          "percent": 60
+        },
+        "4": {
+          "accuracy": 0.34331476323119775,
+          "retention": 0.39655727155727155,
+          "percent": 80
+        },
+        "5": {
+          "accuracy": 0.37952646239554316,
+          "retention": 0.4383848133848134,
+          "percent": 100
+        }
+      }
+    }
+  }
+}
